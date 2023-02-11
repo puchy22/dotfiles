@@ -34,6 +34,20 @@ In the case of this wm is specified to work with [feh](##feh) to display a wallp
 
 More info in [Wiki](https://github.com/baskerville/bspwm).
 
+#### Specific key binds
+
+In this table are the keybinds most used by me that are not found in [keybindings](#Keybindings). You can change these keys editing the sxhdrc file . 
+
+| Key                                                           | Action                           |
+| ------------------------------------------------------------- | -------------------------------- |
+| **mod + s**                                                   | set floating window              |
+| **mod + t**                                                   | set tiling window                |
+| **mod + f**                                                   | set full screen window           |
+| **mod + alt + l** or **mod + alt + Right arrow**              | move floating window to right    |
+| **mod + alt + h** or **mod + alt + Left arrow**               | move floating window to left     |
+| **mod + alt + j** or **mod + alt + Down arrow**               | move floating window down        |
+| **mod + alt + k** or **mod + alt + Up arrow**                 | move floating window up          |
+
 #### Preview
 
 ![Bspwm](.screenshots/bspwm/bspwm_1.png)
@@ -71,6 +85,10 @@ These are most common keybindings in all my wm. Normally mod == windows key.
 | **mod + shift + h** or **mod + shift + Left arrow**           | swap with left window          |
 | **mod + shift + j** or **mod + shift + Down arrow**           | swap with down window          |
 | **mod + shift + k** or **mod + shift + Up arrow**             | swap with up window            |
+| **mod + ctrl + l** or **mod + ctrl + Right arrow**            | swap with right window         |
+| **mod + ctrl + h** or **mod + ctrl + Left arrow**             | swap with left window          |
+| **mod + ctrl + j** or **mod + ctrl + Down arrow**             | swap with down window          |
+| **mod + ctrl + k** or **mod + ctrl + Up arrow**               | swap with up window            |
 | **mod + alt + r**                                             | restart wm                     |
 | **mod + alt + q**                                             | quit wm                        |
 | **mod + d**                                                   | open app launcher              |
