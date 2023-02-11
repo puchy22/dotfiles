@@ -1,0 +1,9 @@
+# Ignore all
+/*
+!.gitignore
+
+# Track these files and folders
+!README.md
+#!README.es.md
+!.config
+!.screenshots

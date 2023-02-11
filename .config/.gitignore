@@ -1,0 +1,7 @@
+# Ignore all
+/*
+!.gitignore
+
+# Track these files and folders
+!bspwm
+!sxhkd
