@@ -2,19 +2,22 @@
 
 # ***Language***
 
-- [Español](./README.es.md)
+- [Español]()
 - English
 
 # Table of contents
 
 - [Software](#Software)
-    - [Window Managers](#WM)
+    - [Window Managers](##WM)
         - [Bspwm](###Bspwm)
         - [Qtile](###Qtile)
-    - [Terminals](###Terminals)
+    - [Terminals](##Terminals)
         - [kitty](###kitty)
         - Alacritty
     - Nvim (in development)
+    - [rofi](##rofi)
+    - [feh](##feh)
+    - [picom](##picom)
 - [Keybindings](#Keybindings)
     
 # Software
@@ -26,6 +29,15 @@ This is independent of the linux distribution you use. For example I used to use
 
 ### Bspwm
 
+In the case of this wm is specified to work with [feh](##feh) to display a wallpaper, [polybar](##polybar), [picom](##picom) for window transparencies, 
+[rofi](##rofi) to run differents programs and [kitty](###kitty) as terminal emulator.
+
+More info in [Wiki](https://github.com/baskerville/bspwm).
+
+#### Preview
+
+![Bspwm](.screenshots/bspwm_1.png)
+![Bspwm](.screenshots/bspwm_2.png)
 
 ### Qtile 
 
@@ -33,6 +45,14 @@ This is independent of the linux distribution you use. For example I used to use
 ## Terminals
 
 ### kitty
+
+## polybar
+
+## rofi
+
+## feh
+
+## picom
 
 # Keybindings
 
