@@ -36,8 +36,8 @@ More info in [Wiki](https://github.com/baskerville/bspwm).
 
 #### Preview
 
-![Bspwm](.screenshots/bspwm_1.png)
-![Bspwm](.screenshots/bspwm_2.png)
+![Bspwm](.screenshots/bspwm/bspwm_1.png)
+![Bspwm](.screenshots/bspwm/bspwm_2.png)
 
 ### Qtile 
 
