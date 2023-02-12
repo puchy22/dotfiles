@@ -12,25 +12,33 @@
         - [Bspwm](#Bspwm)
         - [Qtile](#Qtile)
     - Terminals
-        - kitty
+        - Kitty
         - Alacritty
     - Nvim (in development)
-    - rofi
-    - feh
-    - picom
+    - Rofi
+    - Feh
+    - Picom
 - [Keybindings](#Keybindings)
     
 # Software
 
 In this section you can find the basic software that I usually use in my desktops enviorements.
-This is independent of the linux distribution you use. For example I used to use bspwm and kitty in my Arch Linux deskptop and Qtile and Alacritty in my parrotOS virtual machines.
+This is independent of the linux distribution you use. For example I used to use bspwm and kitty in my Arch Linux deskptop for daily use and Qtile and Alacritty in my parrotOS virtual machines.
+
+List of common software:
+
+- nvim
+- [feh](https://feh.finalrewind.org/)
+- [picom](https://wiki.archlinux.org/title/Picom)
+- [flameshot](https://flameshot.org/)
+- [arandr](https://christian.amsuess.com/tools/arandr/)
 
 ## WM
 
 ### Bspwm
 
-In the case of this wm is specified to work with [feh](##feh) to display a wallpaper, [polybar](##polybar), [picom](##picom) for window transparencies, 
-[rofi](##rofi) to run differents programs and [kitty](###kitty) as terminal emulator.
+In the case of this wm is specified to work with feh to display a wallpaper, [polybar](#Polybar) as status bar, picom for window transparencies, 
+[rofi](#Rofi) to run differents programs and kitty as terminal emulator.
 
 More info in [Wiki](https://github.com/baskerville/bspwm).
 
@@ -55,7 +63,9 @@ In this table are the keybinds most used by me that are not found in [keybinding
 
 ### Qtile 
 
+## Polybar
 
+## Rofi
 
 # Keybindings
 
