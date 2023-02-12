@@ -8,16 +8,16 @@
 # Table of contents
 
 - [Software](#Software)
-    - [Window Managers](##WM)
-        - [Bspwm](###Bspwm)
-        - [Qtile](###Qtile)
-    - [Terminals](##Terminals)
-        - [kitty](###kitty)
+    - [Window Managers](#WM)
+        - [Bspwm](#Bspwm)
+        - [Qtile](#Qtile)
+    - [Terminals](#Terminals)
+        - [kitty](#kitty)
         - Alacritty
     - Nvim (in development)
-    - [rofi](##rofi)
-    - [feh](##feh)
-    - [picom](##picom)
+    - [rofi](#rofi)
+    - [feh](#feh)
+    - [picom](#picom)
 - [Keybindings](#Keybindings)
     
 # Software
