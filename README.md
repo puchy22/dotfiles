@@ -11,13 +11,13 @@
     - [Window Managers](#WM)
         - [Bspwm](#Bspwm)
         - [Qtile](#Qtile)
-    - [Terminals](#Terminals)
-        - [kitty](#kitty)
+    - Terminals
+        - kitty
         - Alacritty
     - Nvim (in development)
-    - [rofi](#rofi)
-    - [feh](#feh)
-    - [picom](#picom)
+    - rofi
+    - feh
+    - picom
 - [Keybindings](#Keybindings)
     
 # Software
@@ -56,17 +56,6 @@ In this table are the keybinds most used by me that are not found in [keybinding
 ### Qtile 
 
 
-## Terminals
-
-### kitty
-
-## polybar
-
-## rofi
-
-## feh
-
-## picom
 
 # Keybindings
 
