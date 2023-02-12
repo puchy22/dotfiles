@@ -32,6 +32,7 @@ List of common software:
 - [picom](https://wiki.archlinux.org/title/Picom)
 - [flameshot](https://flameshot.org/)
 - [arandr](https://christian.amsuess.com/tools/arandr/)
+- thunar
 
 ## WM
 
@@ -64,6 +65,12 @@ In this table are the keybinds most used by me that are not found in [keybinding
 ### Qtile 
 
 ## Polybar
+
+I mainly use polybar with bspwm. To use this you need to install a [NerdFont](https://www.nerdfonts.com/) to be able to display the emojis (in my case I use Iosevka).
+At the beginning of the file are defined the main colors that you can use in the rest of the file. 
+The next part is the definition of the principal bar and another for a second monitor. The only different between boht are the emojis and some modules like battery.
+
+More info in [Wiki](https://polybar.github.io/).
 
 ## Rofi
 
