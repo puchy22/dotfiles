@@ -33,6 +33,7 @@ List of common software:
 - [flameshot](https://flameshot.org/)
 - [arandr](https://christian.amsuess.com/tools/arandr/)
 - thunar
+- zsh and oh my zsh
 
 ## WM
 
@@ -56,6 +57,9 @@ In this table are the keybinds most used by me that are not found in [keybinding
 | **mod + alt + h** or **mod + alt + Left arrow**               | move floating window to left     |
 | **mod + alt + j** or **mod + alt + Down arrow**               | move floating window down        |
 | **mod + alt + k** or **mod + alt + Up arrow**                 | move floating window up          |
+| **mod + r**                                                   | open run menu                    |
+| **mod + p**                                                   | open power menu                  |
+| **mod + esc**                                                 | open screenshot menu             |
 
 #### Preview
 
@@ -73,6 +77,9 @@ The next part is the definition of the principal bar and another for a second mo
 More info in [Wiki](https://polybar.github.io/).
 
 ## Rofi
+
+I use the Rofi launcher from https://github.com/catppuccin/rofi. It has four differents menus: one for launcher apps, other for run menu (commands from terminal), powermenu and screenshot menu.
+This file comes with is README in his file for more information.
 
 # Keybindings
 
