@@ -11,13 +11,6 @@
     - [Window Managers](#WM)
         - [Bspwm](#Bspwm)
         - [Qtile](#Qtile)
-    - Terminals
-        - Kitty
-        - Alacritty
-    - Nvim (in development)
-    - Rofi
-    - Feh
-    - Picom
 - [Keybindings](#Keybindings)
     
 # Software
