@@ -8,3 +8,6 @@
 !.config
 !.screenshots
 !Images
+!.zshrc
+!.oh-my-zsh
+!.p10k.zsh

@@ -11,6 +11,9 @@
     - [Window Managers](#WM)
         - [Bspwm](#Bspwm)
         - [Qtile](#Qtile)
+    - [Polybar](#Polybar)
+    - [Rofi](#Rofi)
+    - [Zsh](#zsh)
 - [Keybindings](#Keybindings)
     
 # Software
@@ -26,7 +29,7 @@ List of common software:
 - [flameshot](https://flameshot.org/)
 - [arandr](https://christian.amsuess.com/tools/arandr/)
 - thunar
-- zsh and oh my zsh
+- [zsh](#zsh)
 
 ## WM
 
@@ -71,8 +74,16 @@ More info in [Wiki](https://polybar.github.io/).
 
 ## Rofi
 
-I use the Rofi launcher from https://github.com/catppuccin/rofi. It has four differents menus: one for launcher apps, other for run menu (commands from terminal), powermenu and screenshot menu.
+I use the Rofi launcher from https://github.com/catppuccin/rofi. It has four differents menus: one for launcher apps, other for run menu (commands from terminal),
+powermenu and screenshot menu.
 This file comes with is README in his file for more information.
+
+## Zsh
+
+As terminal emulator I always use zsh, I use it instead of other options such as bash or [fish](https://fishshell.com/) because zsh is compatible with other more important like *sh*
+and it has a great community with a bunch of usefull plugins.
+
+To manage these plugins I use [oh my zsh](https://github.com/ohmyzsh/ohmyzsh). Finally we want to see our terminal and we want it to look nice, for this I use [Powerlevel10k](https://github.com/romkatv/powerlevel10k).
 
 # Keybindings
 
