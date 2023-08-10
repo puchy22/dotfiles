@@ -117,3 +117,9 @@ alias top="htop"
 # NEOFETCH
 neofetch
 
+export PATH=~/.local/bin:$PATH
+
+# Install Ruby Gems to ~/.gems
+export GEM_HOME="$HOME/.gems"
+export PATH="$HOME/.gems/bin:/home/puchy/.local/share/gem/ruby/3.0.0/bin:$PATH"
+export DB_PASSWORD="tu_contraseña_aquí"

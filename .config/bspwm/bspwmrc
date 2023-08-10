@@ -33,7 +33,7 @@ bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
 # Wallpaper
-feh --bg-fill /home/puchy/Images/Wallpapers/tanjiro.png
+feh --bg-fill $HOME/Images/Wallpapers/tanjiro.png
 # Launch polybar
 sh $HOME/.config/polybar/launch.sh
 # Transparencies
