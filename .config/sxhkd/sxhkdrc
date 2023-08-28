@@ -138,14 +138,14 @@ super + ctrl + {h,j,k,l}
 # Ligth
 #
 
-super + F9
-	brightnessctl -d "intel_backlight" set +2%
+XF86MonBrightnessUp
+	xbacklight -inc 2
 
-super + F8
-	brightnessctl -d "intel_backlight" set 2%-
+XF86MonBrightnessDown
+	xbacklight -dec 2
 
 #
-# Sound
+# Audio
 #
 
 XF86AudioRaiseVolume
@@ -154,8 +154,8 @@ XF86AudioRaiseVolume
 XF86AudioLowerVolume
 	amixer sset Master 2%-
 
-super + {F3, F3 + shift}
-	amixer sset Master {mute, unmute}
+XF86AudioMute
+	amixer sset Master toggle
 
 #
 # Custom shortcuts
@@ -163,7 +163,7 @@ super + {F3, F3 + shift}
 
 # Firefox
 super + alt + f
-	firefox
+	librewolf
 
 # Chromium
 super + alt + c
@@ -177,13 +177,13 @@ super + alt + a
 super + alt + v
 	code
 
-# Print screen
-Print
-    flameshot full
-
 # Print region
+Print
+    flameshot gui
+
+# Print full screen
 super + Print
-    flameshot
+    flameshot full
 
 # Poweroff/Reboot
 super + ctrl + alt + {p,r}

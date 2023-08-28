@@ -4,12 +4,13 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 
 # This is the multiple monitor config for my latop
 
-if [[ $(xrandr -q | grep 'HDMI-2 connected') ]]; then
+if [[ $(xrandr -q | grep 'HDMI2 connected') ]]; then
 	xrandr --output eDP1 --mode 1920x1080 --rotate normal --output HDMI2 --primary --mode 1920x1080 --rotate normal --right-of eDP1
-	bspc monitor HDMI-2 -d I II III IV V
-	bspc monitor eDP-1 -d VI VII VIII IX X
+	bspc monitor HDMI2 -d I II III IV V
+	bspc monitor eDP1 -d VI VII VIII IX X
 else
-	bspc monitor eDP-1 -d I II III IV V VI VII VIII IX X
+	xrandr --output eDP1 --mode 1920x1080 --rotate normal --primary
+	bspc monitor eDP1 -d I II III IV V VI VII VIII IX X
 fi
 
 bspc config border_width         2
@@ -23,7 +24,7 @@ bspc config gapless_monocle      true
 
 bspc rule -a Gimp desktop='^8' state=floating follow=on
 bspc rule -a Chromium desktop='II' follow=on
-bspc rule -a firefox desktop='II' follow=on
+bspc rule -a LibreWolf desktop='II' follow=on
 bspc rule -a Thunar desktop='III' follow=on
 bspc rule -a subl desktop='IV' follow=on
 bspc rule -a okular desktop='V'
@@ -38,5 +39,7 @@ feh --bg-fill $HOME/Images/Wallpapers/tanjiro.png
 sh $HOME/.config/polybar/launch.sh
 # Transparencies
 exec picom
+# Low battery notifier
+sh ~/.config/bspwm/scripts/low_bat_notifier.sh
 # Windows name for java applications
 wmname LG3D

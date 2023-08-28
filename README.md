@@ -83,8 +83,6 @@ This file comes with is README in his file for more information.
 As terminal emulator I always use zsh, I use it instead of other options such as bash or [fish](https://fishshell.com/) because zsh is compatible with other more important like *sh*
 and it has a great community with a bunch of usefull plugins.
 
-To manage these plugins I use [oh my zsh](https://github.com/ohmyzsh/ohmyzsh). Finally we want to see our terminal and we want it to look nice, for this I use [Powerlevel10k](https://github.com/romkatv/powerlevel10k).
-
 # Keybindings
 
 These are most common keybindings in all my wm. Normally mod == windows key.
