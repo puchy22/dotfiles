@@ -34,11 +34,11 @@ bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
 # Wallpaper
-feh --bg-fill $HOME/Images/Wallpapers/tanjiro.png
+feh --bg-fill /usr/share/backgrounds/gojo_art.jpg
 # Launch polybar
 sh $HOME/.config/polybar/launch.sh
 # Transparencies
-exec picom
+DISPLAY=":0" picom -b
 # Low battery notifier
 sh ~/.config/bspwm/scripts/low_bat_notifier.sh
 # Windows name for java applications
