@@ -7,8 +7,9 @@ super + Return
 	kitty
 
 # program launcher
-super + {d,r,p,Escape}
-	sh $HOME/.config/rofi/bin/{launcher,runner,powermenu,screenshot}
+
+super + d
+  rofi -show drun
 
 # make sxhkd reload its configuration files:
 super + shift + r
@@ -161,7 +162,7 @@ XF86AudioMute
 # Custom shortcuts
 #
 
-# Firefox
+# Librewolf
 super + alt + f
 	librewolf
 
@@ -188,4 +189,8 @@ super + Print
 # Poweroff/Reboot
 super + ctrl + alt + {p,r}
 	{poweroff,reboot}
+
+# Lock scrren
+super + ctrl + alt + l
+  light-locker-command -l
 
